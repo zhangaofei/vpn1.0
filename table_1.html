@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #tab{
+            border:1px solid;
+        }
+    </style>
+
+</head>
+<body>
+<table id="tab">
+    <tr>
+        <td>td</td>
+        <td>td2</td>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td id="td">td2</td>
+    </tr>
+
+</table>
+</body>
+<script src="libs/jquery.js"></script>
+<script>
+    console.log($("#td").text())
+  console.log($("#tab")[0])
+    console.log($("#tab")[0].rows)
+    console.log($("#tab")[0].rows.length)
+    console.log($("#tab")[0].rows.cells)
+</script>
+</html>
