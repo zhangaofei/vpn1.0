@@ -1,10 +1,10 @@
-1. git z.txt
+﻿1. git z.txt
 dev git dev
 fsfsfds
 
 
 sffsf
-我在 dev分支上<<<<<<< .mine
+我在 dev分支上
 
 dev git dev
 
@@ -12,12 +12,4 @@ ddddads
 
 
 
-=======
 
-fsfsfds
-
-
-sffsf
-我在 dev分支上
-
->>>>>>> .theirs
